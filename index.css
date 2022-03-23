@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    background-image: url('bckgrnd.png');
+    background-size: cover;
+}
+
+.navlist{
+    display: flex;
+    color: white;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 5px;
+}
+
+.navlist li{
+    padding: 10px;  
+}
+
+.navlist li a{
+    color: white;
+}
+
+.navlist img{
+    height: 30px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.frontcontainer{
+    background-color: white;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
